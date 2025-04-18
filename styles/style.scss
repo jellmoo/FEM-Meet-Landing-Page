@@ -14,7 +14,7 @@ body {
 .nav {
     display: flex;
     justify-content: center;
-    padding: 80px 80px 0px 80px;
+    padding: $spacing-3xl $spacing-3xl 0px $spacing-3xl;
 }
 
 .hero {
@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    padding: 80px 64px;
+    padding: $spacing-3xl $spacing-xl;
 
     &__wrapper {
         display: flex;
@@ -36,8 +36,8 @@ body {
         display: flex;
         flex-direction: column;
         width: 440px;
-        margin-right: 32px;
-        margin-left: 32px;
+        margin-right: $spacing-sm;
+        margin-left: $spacing-sm;
     }
 
     &__title {
@@ -47,8 +47,8 @@ body {
     &__description {
         @include font-desktop-text-preset-4;
         color: $slate-600;
-        margin-top: 32px;
-        margin-bottom: 32px;
+        margin-top: $spacing-sm;
+        margin-bottom: $spacing-sm;
     }
 
     &__image {
@@ -79,15 +79,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 56px 80px 72px 80px;
+    padding: $spacing-lg $spacing-3xl $spacing-2xl $spacing-3xl;
 
     &__image-collage {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 32px;
+        gap: $spacing-sm;
         max-width: 1120px;
-        margin-top: 64px;
-        margin-bottom: 64px;
+        margin-top: $spacing-xl;
+        margin-bottom: $spacing-xl;
     }
 
     &__image-collage-image {
@@ -110,13 +110,13 @@ body {
         @include font-desktop-text-preset-3;
         text-transform: uppercase;
         color: $cyan-600;
-        margin-bottom: 16px;
+        margin-bottom: $spacing-xxs;
     }
 
     &__title {
         @include font-desktop-text-preset-2;
         color: $slate-900;
-        margin-bottom: 32px;
+        margin-bottom: $spacing-sm;
     }
 
     &__description {
@@ -148,7 +148,7 @@ body {
         text-align: left;
         width: 100%;
         max-width: 1120px;
-        padding: 112px 80px;
+        padding: 112px $spacing-3xl;
     }
 
     &__title {
@@ -159,7 +159,7 @@ body {
     &__description {
         min-width: 355px;
         max-width: 100%;
-        margin-right: 32px;
+        margin-right: $spacing-sm;
     }
 }
 
