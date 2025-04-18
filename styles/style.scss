@@ -9,6 +9,7 @@ body {
     text-align: center;
     color: $slate-900;
     background-color: $white;
+    
 }
 
 .nav {
@@ -128,7 +129,7 @@ body {
 
 .footer {
     color: $white;
-    
+    overflow: hidden;
     &__hero {
         display: flex;
         flex-direction: row;

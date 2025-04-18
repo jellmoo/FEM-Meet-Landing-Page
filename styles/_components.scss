@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     @include font-desktop-text-preset-5;
-    width: 193px;
+    min-width: 193px;
     height: 56px;
     border-radius: 30px;
     border: none;
