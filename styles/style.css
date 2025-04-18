@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   font-family: "Red Hat Display";
   font-weight: 900;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   text-decoration: none;
   letter-spacing: 0px;
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(250, 250, 250);
   font-family: "Red Hat Display";
   font-weight: 900;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   text-decoration: none;
   letter-spacing: 0px;
@@ -127,7 +127,7 @@ body {
 .nav {
   display: flex;
   justify-content: center;
-  padding: 80px 80px 0px 80px;
+  padding: 5rem 5rem 0px 5rem;
 }
 
 .hero {
@@ -135,7 +135,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding: 80px 64px;
+  padding: 5rem 4rem;
 }
 .hero__wrapper {
   display: flex;
@@ -148,13 +148,13 @@ body {
   display: flex;
   flex-direction: column;
   width: 440px;
-  margin-right: 32px;
-  margin-left: 32px;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 .hero__title {
   font-family: "Red Hat Display";
   font-weight: 900;
-  font-size: 64px;
+  font-size: 4rem;
   line-height: 110%;
   text-decoration: none;
   letter-spacing: 0px;
@@ -162,13 +162,13 @@ body {
 .hero__description {
   font-family: "Red Hat Display";
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 150%;
   text-decoration: none;
   letter-spacing: 0px;
   color: rgb(135, 135, 157);
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .hero__image {
   position: relative;
@@ -193,15 +193,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 56px 80px 72px 80px;
+  padding: 3.5rem 5rem 4.5rem 5rem;
 }
 .main-content__image-collage {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
+  gap: 2rem;
   max-width: 1120px;
-  margin-top: 64px;
-  margin-bottom: 64px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 .main-content__image-collage-image {
   border-radius: 8px;
@@ -219,28 +219,28 @@ body {
 .main-content__subtitle {
   font-family: "Red Hat Display";
   font-weight: 900;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 110%;
   text-decoration: none;
   letter-spacing: 4px;
   text-transform: uppercase;
   color: rgb(77, 150, 168);
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 .main-content__title {
   font-family: "Red Hat Display";
   font-weight: 900;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 110%;
   text-decoration: none;
   letter-spacing: 0px;
   color: rgb(40, 40, 61);
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 .main-content__description {
   font-family: "Red Hat Display";
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 150%;
   text-decoration: none;
   letter-spacing: 0px;
@@ -256,7 +256,7 @@ body {
   justify-content: center;
   align-items: center;
   max-height: 312px;
-  background-image: linear-gradient(to bottom, rgba(75, 189, 218, 0.85), rgba(35, 137, 163, 0.85)), url("/assets/desktop/image-footer.jpg");
+  background-image: linear-gradient(to bottom, rgba(75, 189, 218, 0.85), rgba(35, 137, 163, 0.85)), url("../assets/desktop/image-footer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -268,12 +268,12 @@ body {
   text-align: left;
   width: 100%;
   max-width: 1120px;
-  padding: 112px 80px;
+  padding: 112px 5rem;
 }
 .footer__title {
   font-family: "Red Hat Display";
   font-weight: 900;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 110%;
   text-decoration: none;
   letter-spacing: 0px;
@@ -282,17 +282,17 @@ body {
 .footer__description {
   min-width: 355px;
   max-width: 100%;
-  margin-right: 32px;
+  margin-right: 2rem;
 }
 
 @media (max-width: 768px) {
   .nav {
-    padding: 48px 80px 0px 80px;
+    padding: 3rem 5rem 0px 5rem;
   }
   .hero {
     display: flex;
     flex-direction: column;
-    padding: 64px 32px;
+    padding: 4rem 2rem;
   }
   .hero__wrapper {
     display: flex;
@@ -301,7 +301,7 @@ body {
   .hero__title {
     font-family: "Red Hat Display";
     font-weight: 900;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 110%;
     text-decoration: none;
     letter-spacing: 0px;
@@ -309,7 +309,7 @@ body {
   .hero__description {
     font-family: "Red Hat Display";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     text-decoration: none;
     letter-spacing: 0px;
@@ -325,13 +325,13 @@ body {
     display: block;
     width: 107vw;
     max-width: none;
-    margin-bottom: 72px;
+    margin-bottom: 4.5rem;
   }
   .main-content {
-    padding: 56px 32px 64px 32px;
+    padding: 3.5rem 2rem 4rem 2rem;
   }
   .main-content__image-collage {
-    gap: 24px;
+    gap: 1.5rem;
   }
   .main-content__text-content {
     max-width: 504px;
@@ -339,7 +339,7 @@ body {
   .main-content__subtitle {
     font-family: "Red Hat Display";
     font-weight: 900;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 110%;
     text-decoration: none;
     letter-spacing: 4px;
@@ -347,7 +347,7 @@ body {
   .main-content__title {
     font-family: "Red Hat Display";
     font-weight: 900;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 110%;
     text-decoration: none;
     letter-spacing: 0px;
@@ -355,14 +355,14 @@ body {
   .main-content__description {
     font-family: "Red Hat Display";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     text-decoration: none;
     letter-spacing: 0px;
   }
   .footer__hero {
     flex-direction: column;
-    background-image: linear-gradient(to bottom, rgba(75, 189, 218, 0.85), rgba(35, 137, 163, 0.85)), url("/assets/tablet/image-footer.jpg");
+    background-image: linear-gradient(to bottom, rgba(75, 189, 218, 0.85), rgba(35, 137, 163, 0.85)), url("../assets/tablet/image-footer.jpg");
     margin-bottom: 0;
   }
   .footer__text-content {
@@ -372,33 +372,33 @@ body {
     align-items: center;
     width: 100%;
     min-height: 192px;
-    padding: 64px 32px;
+    padding: 4rem 2rem;
   }
   .footer__title {
     font-family: "Red Hat Display";
     font-weight: 900;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 110%;
     text-decoration: none;
     letter-spacing: 0px;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
   }
   .footer__description {
     font-family: "Red Hat Display";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     text-decoration: none;
     letter-spacing: 0px;
     margin-right: 0px;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     width: 100%;
     max-width: 504px;
   }
 }
 @media (max-width: 425px) {
   .hero {
-    padding: 64px 32px 32px 32px;
+    padding: 4rem 2rem 2rem 2rem;
     flex-direction: column;
   }
   .hero__text-content {
@@ -407,7 +407,7 @@ body {
   .hero__title {
     font-family: "Red Hat Display";
     font-weight: 900;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 110%;
     text-decoration: none;
     letter-spacing: 0px;
@@ -415,15 +415,15 @@ body {
   .hero__description {
     font-family: "Red Hat Display";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     text-decoration: none;
     letter-spacing: 0px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
   .hero__image--tablet {
-    margin-bottom: 48px;
+    margin-bottom: 3rem;
   }
   .hero__buttons {
     display: flex;
@@ -431,18 +431,18 @@ body {
   }
   .button--blue {
     margin-right: 0;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
   .button--purple {
     width: 161px;
   }
   .main-content {
-    padding: 32px 32px 48px 32px;
+    padding: 2rem 2rem 3rem 2rem;
   }
   .main-content__image-collage {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 16px;
+    gap: 1rem;
   }
   .main-content__text-content {
     width: 311px;
@@ -450,7 +450,7 @@ body {
   .main-content__subtitle {
     font-family: "Red Hat Display";
     font-weight: 900;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 110%;
     text-decoration: none;
     letter-spacing: 4px;
@@ -458,7 +458,7 @@ body {
   .main-content__title {
     font-family: "Red Hat Display";
     font-weight: 900;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 110%;
     text-decoration: none;
     letter-spacing: 0px;
@@ -466,14 +466,14 @@ body {
   .main-content__description {
     font-family: "Red Hat Display";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     text-decoration: none;
     letter-spacing: 0px;
   }
   .footer__hero {
     min-height: 374px;
-    background-image: linear-gradient(to bottom, rgba(75, 189, 218, 0.85), rgba(35, 137, 163, 0.85)), url("/assets/mobile/image-footer.jpg");
+    background-image: linear-gradient(to bottom, rgba(75, 189, 218, 0.85), rgba(35, 137, 163, 0.85)), url("../assets/mobile/image-footer.jpg");
   }
   .footer__text-content {
     max-width: 311px;
@@ -482,7 +482,7 @@ body {
   .footer__title {
     font-family: "Red Hat Display";
     font-weight: 900;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 110%;
     text-decoration: none;
     letter-spacing: 0px;
@@ -491,7 +491,7 @@ body {
   .footer__description {
     font-family: "Red Hat Display";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     text-decoration: none;
     letter-spacing: 0px;
