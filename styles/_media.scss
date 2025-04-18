@@ -1,0 +1,195 @@
+@media (max-width: $breakpoint-tablet) {
+    
+    .nav {
+        padding: 48px 80px 0px 80px;
+    }
+    
+    .hero {
+        display: flex;
+        flex-direction: column;
+        padding: 64px 32px;
+    
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        &__title {
+            @include font-tablet-text-preset-1;
+        }
+    
+        &__description {
+            @include font-tablet-text-preset-4;
+        }
+    
+        &__image {
+        position: relative;
+        
+
+            &--left,
+            &--right {
+                display: none;
+            }
+
+    
+            &--tablet {
+                margin: 0;
+                display: block;
+                width: 107vw;
+                max-width: none;
+                margin-bottom: 72px;
+            }
+        }
+    }
+    
+    .main-content {
+        padding: 56px 32px 64px 32px;
+    
+        &__image-collage {
+            gap: 24px;
+        }
+
+        &__text-content {
+            max-width: 504px;
+        }
+    
+        &__subtitle {
+            @include font-tablet-text-preset-3;
+        }
+    
+        &__title {
+            @include font-tablet-text-preset-2;
+        }
+    
+        &__description {
+            @include font-tablet-text-preset-4;
+        }
+    }
+    
+    
+    .footer {
+
+        &__hero {
+            flex-direction: column;
+            background-image: linear-gradient(to bottom, rgba(75, 189, 218, 0.85), rgba(35, 137, 163, 0.85)), url("/assets/tablet/image-footer.jpg");
+            margin-bottom: 0;
+        }
+    
+        &__text-content {
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-height: 192px;
+            padding: 64px 32px;
+        }
+
+        &__title {
+            @include font-tablet-text-preset-2;
+            margin-bottom: 24px;
+        }
+    
+        &__description {
+            @include font-tablet-text-preset-4;
+            margin-right: 0px;
+            margin-bottom: 24px;
+            width: 100%;
+            max-width: 504px;
+        }
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    
+    .hero {
+        padding: 64px 32px 32px 32px;
+        flex-direction: column;
+
+        &__text-content {
+            width: 305px;
+        }
+    
+        &__title {
+            @include font-mobile-text-preset-1;
+        }
+    
+        &__description {
+            @include font-tablet-text-preset-4;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+    
+        &__image {
+
+            &--tablet {
+                margin-bottom: 48px;
+            }
+        }
+        &__buttons {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .button {
+        &--blue {
+            margin-right: 0;
+            margin-bottom: 16px;
+        }
+
+        &--purple {
+            width: 161px;
+        }
+    }
+    
+    .main-content {
+        padding: 32px 32px 48px 32px;
+    
+        &__image-collage {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 16px
+        }
+
+        &__text-content {
+            width: 311px;
+        }
+    
+        &__subtitle {
+            @include font-mobile-text-preset-3;
+        }
+    
+        &__title {
+            @include font-mobile-text-preset-2;
+        }
+    
+        &__description {
+            @include font-tablet-text-preset-4;
+        }
+    }
+    
+    
+    .footer {
+
+        &__hero {
+            min-height: 374px;
+            background-image: linear-gradient(to bottom, rgba(75, 189, 218, 0.85), rgba(35, 137, 163, 0.85)), url("/assets/mobile/image-footer.jpg");
+        }
+    
+        &__text-content {
+            max-width: 311px;
+            min-height: 246px;
+        }
+
+        &__title {
+            @include font-mobile-text-preset-2;
+            min-width: 311px;
+        }
+    
+        &__description {
+            @include font-tablet-text-preset-4;
+            min-width: 311px;
+        }
+    }
+}

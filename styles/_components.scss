@@ -1,0 +1,79 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @include font-desktop-text-preset-5;
+    width: 193px;
+    height: 56px;
+    border-radius: 30px;
+    border: none;
+    color: $white;
+    transition: all 500ms ease-in;
+
+    &__version {
+        color: $cyan-300;
+    }
+
+    &--blue {
+        background-color: $cyan-600;
+        margin-right: 17px;
+
+        &:hover {
+            background-color: #71C0D4;
+            }
+    }
+
+    &--purple {
+        background-color: $purple-600;
+
+        &:hover {
+            background-color: #B18BDD;
+            }
+    }
+
+    &--footer {
+        background-color: $purple-600;
+
+        &:hover {
+            background-color: #B18BDD;
+            }
+    }
+
+    &--footer-version {
+        color: $purple-300;
+        
+    }
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: relative;
+    
+
+        &__line {
+            width: 1px;
+            height: 80px;
+            background-color: $slate-300;
+            
+        }
+
+        &__node {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            border: 1px solid $slate-300;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $slate-600;
+            background-color: $white;
+            @include font-desktop-text-preset-5;
+        }
+
+        &--footer {
+            transform: translateY(28px);
+        }
+}
